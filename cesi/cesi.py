@@ -236,7 +236,7 @@ def get_groups(cesi):
                     group_list.append(pro["group"])
 
         except Exception as e:
-            print e
+            print(e)
             continue
 
     return group_list
@@ -261,7 +261,7 @@ def get_group_details(cesi, group_name):
                                 group_map[env].append(pro["node"])
 
         except Exception as e:
-            print e
+            print(e)
             continue
 
     return group_map
